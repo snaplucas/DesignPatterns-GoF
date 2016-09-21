@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Creational", "1 - Creational", "{6227842A-B488-481C-BD68-7C1B2ADDF8AC}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "1 - Creational\Singleton\Singleton.csproj", "{C293637D-4A84-46BB-A1A3-A4F8BCE740CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "2 - Structural\Adapter\Adapter.csproj", "{839A2D8B-8C47-451F-995D-8C9387E56088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "2 - Structural\Composite\Composite.csproj", "{21343782-FD3A-4A0B-95A7-C88B6B0CFC18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{839A2D8B-8C47-451F-995D-8C9387E56088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{839A2D8B-8C47-451F-995D-8C9387E56088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{839A2D8B-8C47-451F-995D-8C9387E56088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21343782-FD3A-4A0B-95A7-C88B6B0CFC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21343782-FD3A-4A0B-95A7-C88B6B0CFC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21343782-FD3A-4A0B-95A7-C88B6B0CFC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21343782-FD3A-4A0B-95A7-C88B6B0CFC18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,5 +68,6 @@ Global
 		{1C897575-37B0-45BF-B04B-44A7DC04FCDE} = {6227842A-B488-481C-BD68-7C1B2ADDF8AC}
 		{C293637D-4A84-46BB-A1A3-A4F8BCE740CD} = {6227842A-B488-481C-BD68-7C1B2ADDF8AC}
 		{839A2D8B-8C47-451F-995D-8C9387E56088} = {7101468E-C5BE-45A5-BF9B-0319E685B5D9}
+		{21343782-FD3A-4A0B-95A7-C88B6B0CFC18} = {7101468E-C5BE-45A5-BF9B-0319E685B5D9}
 	EndGlobalSection
 EndGlobal
