@@ -8,8 +8,8 @@ namespace Decorator
 		static void Main(string[] args)
 		{
 			var textView = new TextView();
-			var scrollDecorator = new ScrollDecorator();
-			scrollDecorator.SetComponent(textView);
+			var scrollDecorator = new ScrollDecorator(textView);
+
 			scrollDecorator.Draw();
 			scrollDecorator.ScrollTo();
 		}

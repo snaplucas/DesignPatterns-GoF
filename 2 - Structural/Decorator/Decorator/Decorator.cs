@@ -7,7 +7,7 @@ namespace Decorator.Decorator
 	{
 		protected VisualComponent _visualComponent;
 
-		public void SetComponent(VisualComponent visualComponent)
+		public Decorator(VisualComponent visualComponent)
 		{
 			_visualComponent = visualComponent;
 		}
