@@ -3,9 +3,9 @@ using System;
 
 namespace Decorator.Decorator
 {
-	public class Decorator : VisualComponent
+	public abstract class Decorator : VisualComponent
 	{
-		protected VisualComponent _visualComponent;
+		private readonly VisualComponent _visualComponent;
 
 		public Decorator(VisualComponent visualComponent)
 		{
