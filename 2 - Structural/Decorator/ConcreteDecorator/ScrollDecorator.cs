@@ -9,5 +9,10 @@ namespace Decorator.ConcreteDecorator
 			base.Draw();
 			Console.WriteLine("Draw a scroll");
 		}
+
+		public void ScrollTo()
+		{
+			Console.WriteLine("Scrolling...");
+		}
 	}
 }

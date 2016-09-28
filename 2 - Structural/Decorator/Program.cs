@@ -11,6 +11,7 @@ namespace Decorator
 			var scrollDecorator = new ScrollDecorator();
 			scrollDecorator.SetComponent(textView);
 			scrollDecorator.Draw();
+			scrollDecorator.ScrollTo();
 		}
 	}
 }
