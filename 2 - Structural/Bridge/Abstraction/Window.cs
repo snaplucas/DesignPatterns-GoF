@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Bridge.Implementor;
 
 namespace Bridge.Abstraction
 {
 	public abstract class Window
 	{
+		public WindowImp windowImp;
+
+		public virtual void DrawText()
+		{
+			windowImp.DevDrawText();
+		}
+
+		public virtual void DrawRect()
+		{
+			windowImp.DevDrawLine();
+		}
 	}
 }

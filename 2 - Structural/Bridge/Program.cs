@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Bridge.ConcreteImplementor;
+using Bridge.RefinedAbstraction;
 
 namespace Bridge
 {
@@ -10,6 +7,12 @@ namespace Bridge
 	{
 		static void Main(string[] args)
 		{
+			var window = new IconWindow();
+			window.windowImp = new PMWindowImp();
+			window.DrawBorder();
+
+			window.windowImp = new XWindowImp();
+			window.DrawBorder();
 		}
 	}
 }
