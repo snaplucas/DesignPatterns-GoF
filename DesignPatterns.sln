@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "2 - Structural\Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "2 - Structural\Proxy\Proxy.csproj", "{26041D66-30EA-4291-9F20-84764E349DE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "3 - Behavioural\Strategy\Strategy.csproj", "{3CDEBF1B-05CA-4F5A-9FF4-E8B6319854BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{26041D66-30EA-4291-9F20-84764E349DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26041D66-30EA-4291-9F20-84764E349DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26041D66-30EA-4291-9F20-84764E349DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDEBF1B-05CA-4F5A-9FF4-E8B6319854BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDEBF1B-05CA-4F5A-9FF4-E8B6319854BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDEBF1B-05CA-4F5A-9FF4-E8B6319854BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDEBF1B-05CA-4F5A-9FF4-E8B6319854BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,5 +103,6 @@ Global
 		{7387B4A9-221C-413C-9DB4-70AB5CE866B0} = {7101468E-C5BE-45A5-BF9B-0319E685B5D9}
 		{3A98F372-B1F3-42A8-A188-94D63EEFE3A8} = {7101468E-C5BE-45A5-BF9B-0319E685B5D9}
 		{26041D66-30EA-4291-9F20-84764E349DE2} = {7101468E-C5BE-45A5-BF9B-0319E685B5D9}
+		{3CDEBF1B-05CA-4F5A-9FF4-E8B6319854BF} = {C5A24B1C-BE1F-43A8-873A-193306796D9E}
 	EndGlobalSection
 EndGlobal
