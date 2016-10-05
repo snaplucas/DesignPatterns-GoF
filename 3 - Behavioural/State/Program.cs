@@ -7,11 +7,11 @@ namespace State
 	{
 		static void Main(string[] args)
 		{
-			var c = new Machine(new StateWorking());
-
-			c.Request();
-			c.Request();
-			c.Request();
+			var machine = new Machine(new StateWorking());
+			machine.Request();
+			machine.Request();
+			machine.DaysWorking = 15;
+			machine.Request();
 		}
 	}
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using State.Context;
+﻿using State.Context;
 using State.State;
 
 namespace State.ConcreteState
@@ -8,7 +7,15 @@ namespace State.ConcreteState
 	{
 		public override void Handle(Machine machine)
 		{
-			machine.State = new StateWorking();
+			if (machine.DaysWorking > 10)
+			{
+				machine.State = new StateStopped();
+			}
+			else
+			{
+				machine.State = new StateWorking();
+			}
+
 		}
 	}
 }

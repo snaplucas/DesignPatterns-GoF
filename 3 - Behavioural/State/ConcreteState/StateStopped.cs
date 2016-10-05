@@ -1,5 +1,4 @@
-﻿using System;
-using State.Context;
+﻿using State.Context;
 using State.State;
 
 namespace State.ConcreteState
