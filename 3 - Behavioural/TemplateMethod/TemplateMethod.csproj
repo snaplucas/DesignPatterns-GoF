@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractClass\Abstract.cs" />
-    <Compile Include="ConcreteClass\ConcreteClassA.cs" />
-    <Compile Include="ConcreteClass\ConcreteClassB.cs" />
+    <Compile Include="AbstractClass\Cerveja.cs" />
+    <Compile Include="ConcreteClass\Lager.cs" />
+    <Compile Include="ConcreteClass\Ale.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

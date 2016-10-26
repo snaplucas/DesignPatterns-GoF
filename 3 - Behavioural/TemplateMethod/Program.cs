@@ -6,11 +6,11 @@ namespace TemplateMethod
 	{
 		static void Main(string[] args)
 		{
-			var aA = new ConcreteClassA();
-			aA.TemplateMethod();
+			var lager = new Lager();
+			lager.PrepararCerveja();
 
-			var aB = new ConcreteClassB();
-			aB.TemplateMethod();
+			var ale = new Ale();
+			ale.PrepararCerveja();
 		}
 	}
 }
