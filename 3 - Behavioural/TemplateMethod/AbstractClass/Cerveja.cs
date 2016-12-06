@@ -4,23 +4,25 @@ namespace TemplateMethod.AbstractClass
 {
 	public abstract class Cerveja
 	{
-		public abstract void Fermentar();
+		public abstract void Fermentacao();
 
 		public void PrepararCerveja()
 		{
-			AdicionarMalte();
-			Fermentar();
-			AdiconarLupulo();
+			Mosturacao();
+
+			Filtracao();
+
+			Fermentacao();
 		}
 
-		private void AdicionarMalte()
+		private void Mosturacao()
 		{
-
+			Console.WriteLine("Mosturação");
 		}
 
-		private void AdiconarLupulo()
+		private void Filtracao()
 		{
-
+			Console.WriteLine("Filtração");
 		}
 	}
 }
