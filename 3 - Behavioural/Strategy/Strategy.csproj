@@ -46,6 +46,7 @@
     <Compile Include="ConcreteStrategy\DescontoBoleto.cs" />
     <Compile Include="ConcreteStrategy\DescontoCartao.cs" />
     <Compile Include="Context\Produto.cs" />
+    <Compile Include="ProdutoMonolitico.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\IDesconto.cs" />
