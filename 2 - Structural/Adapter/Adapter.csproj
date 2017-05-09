@@ -49,6 +49,10 @@
     <Compile Include="Adapter2\Shape.cs" />
     <Compile Include="Adapter2\TextShape.cs" />
     <Compile Include="Adapter2\TextView.cs" />
+    <Compile Include="Adapter3\Button.cs" />
+    <Compile Include="Adapter3\ButtonDialerAdapter.cs" />
+    <Compile Include="Adapter3\ButtonListener.cs" />
+    <Compile Include="Adapter3\Dialer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,5 +1,6 @@
 ﻿using Adapter.Adapter1;
 using Adapter.Adapter2;
+using Adapter.Adapter3;
 
 namespace Adapter
 {
@@ -12,6 +13,9 @@ namespace Adapter
 
 			Shape shape = new TextShape();
 			string text = shape.BoundingBox();
+
+			Button button = new Button(new ButtonDialerAdapter(1234));
+			button.ButtonPressed();
 		}
 	}
 }
