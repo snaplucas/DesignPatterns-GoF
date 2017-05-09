@@ -2,7 +2,7 @@
 
 namespace FactoryMethod.AbstractCreator
 {
-    public abstract class Application
+    public abstract class ApplicationFactory
     {
         public abstract Document CreateDocument();
     }

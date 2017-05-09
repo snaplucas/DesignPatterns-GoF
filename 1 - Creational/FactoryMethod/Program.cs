@@ -8,10 +8,10 @@ namespace FactoryMethod
 	{
 		static void Main(string[] args)
 		{
-			Application factory = new TextApplication();
+			ApplicationFactory factory = new TextApplicationFactory();
 			Document document = factory.CreateDocument();
 
-			var factory2 = new ImageApplication();
+			var factory2 = new ImageApplicationFactory();
 			var document2 = factory2.CreateDocument();
 
 			var factory3 = new DocumentFactory("Text");
