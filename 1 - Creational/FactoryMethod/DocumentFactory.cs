@@ -5,7 +5,7 @@ using FactoryMethod.Product;
 
 namespace FactoryMethod
 {
-    public class DocumentFactory : Application
+    public class DocumentFactory : ApplicationFactory
     {
         private readonly string _type;
         public DocumentFactory(string type)
