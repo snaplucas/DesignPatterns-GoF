@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractCreator\Application.cs" />
+    <Compile Include="AbstractCreator\ApplicationFactory.cs" />
     <Compile Include="AbstractProduct\Document.cs" />
-    <Compile Include="Creator\ImageApplication.cs" />
-    <Compile Include="Creator\TextApplication.cs" />
+    <Compile Include="Creator\ImageApplicationFactory.cs" />
+    <Compile Include="Creator\TextApplicationFactory.cs" />
     <Compile Include="DocumentFactory.cs" />
     <Compile Include="Product\ImageDocument.cs" />
     <Compile Include="Product\TextDocument.cs" />

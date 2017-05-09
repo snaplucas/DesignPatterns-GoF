@@ -4,7 +4,7 @@ using FactoryMethod.Product;
 
 namespace FactoryMethod.Creator
 {
-    public class TextApplication : Application
+    public class TextApplicationFactory : ApplicationFactory
     {
         public override Document CreateDocument()
         {
